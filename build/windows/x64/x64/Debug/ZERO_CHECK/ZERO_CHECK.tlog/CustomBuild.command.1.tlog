@@ -1,0 +1,10 @@
+^C:\USERS\JAVIER\PROJECTOS\HOLA_GIT\BUILD\WINDOWS\X64\CMAKEFILES\895DBC2C2F1E435F4AB754B42B890986\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/JAVIER/projectos/hola_git/windows -BC:/Users/JAVIER/projectos/hola_git/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/JAVIER/projectos/hola_git/build/windows/x64/hola_git.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

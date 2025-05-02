@@ -1,0 +1,28 @@
+^C:\USERS\JAVIER\PROJECTOS\HOLA_GIT\BUILD\WINDOWS\X64\CMAKEFILES\042D8DD38672E79FE8BA5F87E762C7C4\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\JAVIER\flutter\flutter PROJECT_DIR=C:\Users\JAVIER\projectos\hola_git FLUTTER_ROOT=C:\Users\JAVIER\flutter\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\JAVIER\projectos\hola_git\windows\flutter\ephemeral PROJECT_DIR=C:\Users\JAVIER\projectos\hola_git FLUTTER_TARGET=C:\Users\JAVIER\projectos\hola_git\lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\JAVIER\projectos\hola_git\.dart_tool\package_config.json C:/Users/JAVIER/flutter/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JAVIER\PROJECTOS\HOLA_GIT\BUILD\WINDOWS\X64\CMAKEFILES\49CCAB8A3A64EBD1AD3259AB8828F85F\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JAVIER\PROJECTOS\HOLA_GIT\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/JAVIER/projectos/hola_git/windows -BC:/Users/JAVIER/projectos/hola_git/build/windows/x64 --check-stamp-file C:/Users/JAVIER/projectos/hola_git/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
