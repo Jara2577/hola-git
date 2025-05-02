@@ -1,0 +1,1 @@
+ C:\\Users\\JAVIER\\projectos\\hola_git\\.dart_tool\\flutter_build\\777d469d58a80889c549ebbcc36c6aef\\native_assets.json: 
