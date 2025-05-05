@@ -1,5 +1,5 @@
 # hola_git
-
+/* trabajo en eqipo de readme*/
 A new Flutter project.
 
 ## Getting Started
